@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 numeroAleatorio = new Random().nextInt(2);
                 intent.putExtra("numero", numeroAleatorio);
 
-                //starta activiry
+                //iniciar a  activity
                 startActivity(intent);
 
             }
